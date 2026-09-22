@@ -44,7 +44,7 @@ A studio or streaming platform wants to understand which seasons, writers, and d
 - **Season 3 has the highest average IMDb rating** (8.51) despite not having the highest average viewership, while **Season 1 has the lowest average rating** (7.23) despite the highest average viewership, an inverse relationship.
 
 
- ##  Business Insights
+ ## 💡 Business Insights
 1. **Live viewership and lasting critical reception move in opposite directions here.** Season 1 pulled the biggest audiences but has the lowest IMDb rating, while Season 3 and the Season 7 finale rate highest but never matched Season 1's viewership. Across all matched episodes, US viewers and IMDb rating actually correlate slightly negatively (-0.16), so chasing live ratings and chasing critical acclaim are not the same strategy for a show like this.
 2. **The show lost viewers steadily as it aged**, dropping from 5.35M average viewers in Season 1 to a low of 2.94M in Season 6, typical of network sitcom decline, but the writing and story quality (via IMDb rating) held up or improved in the same stretch. This is a useful case for arguing that renewal decisions shouldn't rely on live viewership alone.
 3. **A small group of contributors carried a large share of the show.** Michael Schur (writing) and Dean Holland (directing) each touched a disproportionate number of episodes, which is common for a showrunner and a lead director, but worth noting as a concentration risk if either had left the show.
