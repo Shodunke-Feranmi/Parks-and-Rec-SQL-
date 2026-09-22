@@ -24,11 +24,7 @@ A studio or streaming platform wants to understand which seasons, writers, and d
 - Compare writers and directors by episode count and average viewership
 - Analyze IMDb ratings by title and by season
 - Check for duplicate title entries and estimate the votes needed to shift a rating
-## 🗂️ Project Structure
- 
-```
-└── parksandrec.sql   → All analysis queries
-```
+
  
 ## 🛠️ Tools & Technologies
  
@@ -55,11 +51,7 @@ A studio or streaming platform wants to understand which seasons, writers, and d
 1. `[ ]` (e.g., whether a particular writer or director correlates with higher viewership)
 2. `[ ]` (e.g., how live viewership trends compare to lasting IMDb reception)
 3. `[ ]` (e.g., a seasonal pattern in ratings or viewership)
-## ⚠️ Note on the Script
- 
-Two queries need attention before this runs cleanly:
-- The votes-needed query near the top (`SELECT ((total_votes*10)/imdb_rating) - FROM ;`) is incomplete and will throw a syntax error. A working version already exists further down the script (`ceil((9.9 * total_votes - imdb_rating * total_votes) / (10 - 9.9))`), so the broken one can likely be removed.
-- A few queries (`GROUP BY title, us_viewers`, `GROUP BY title, episode_num_in_season, us_viewers`) group by columns that make each row already unique, so they behave like a plain `SELECT ... ORDER BY` — worth double-checking they return what's intended.
+
 ## 📚 Skills Demonstrated
  
 - Aggregate analysis across two related tables
@@ -69,4 +61,4 @@ Two queries need attention before this runs cleanly:
 ## 👤 Author
  
 **Shodunke Feranmi**
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/Shodunke-Feranmi)
